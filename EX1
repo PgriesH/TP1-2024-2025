@@ -1,0 +1,10 @@
+moy = 0
+nom = str(input("nom : "))
+prenom = str(input("prenom : "))
+math = float(input("note en Math : "))
+ang = float(input("note en Anglais : "))
+info = float(input("note en Informatique : "))
+annee = int(input("année d'entrée : "))
+moy = (math + ang + info) / 3
+
+print(f"L'étudiant {nom} {prenom} de la promotion {annee} a une moyenne de {moy}")
